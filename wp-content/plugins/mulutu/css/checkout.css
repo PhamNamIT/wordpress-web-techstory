@@ -1,0 +1,9 @@
+.d-none {
+    display: none !important;
+}
+
+.leadtime {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 92%;
+}

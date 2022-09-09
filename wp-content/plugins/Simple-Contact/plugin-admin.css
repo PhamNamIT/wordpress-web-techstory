@@ -1,0 +1,64 @@
+.setup_infor {
+    float: left;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.infor_child {
+    padding: 10px 0;
+}
+.infor_child label {
+    width: 115px;
+    display: inline-block;
+}
+.device_location {
+    float: left;
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+    margin-left: 15px;
+}
+.input-submit {
+    clear: both;
+    margin-top: 15px;
+    float: left;
+}
+li.method {
+    width: 115px;
+    float: left;
+}
+
+li.infomation {
+    float: left;
+    width: 326px;
+}
+
+li.desktop-enable {
+    float: left;
+    width: 80px;
+}
+
+li.mobile-enable {
+    float: left;
+    width: 80px;
+}
+.infor_child input.desktop_enable {
+    margin-left: 20px;
+    margin-right: 59px;
+}
+ul.lis-item {
+    float: left;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 15px;
+    margin-bottom: 18px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+}
+#wpwrap form#form-simple-admin {float:left}
+#toplevel_page_Simple-Contact-Simple-Contact .wp-menu-image img {    width: 65%;
+    padding: 0 !important;
+    margin-top: 6px;}
+    .copyright {
+    clear: both;
+    margin-top: 17px;
+}
+   .copyright a  {text-decoration: none;}

@@ -1,0 +1,143 @@
+.d-none {
+    display: none
+}
+
+.d-block {
+    display: block;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-top: 5px;
+}
+
+.form-table td {
+    padding: 0;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.shipping_method_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.shipping_method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFF;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.shipping_method .content {
+    padding: 0 15px;
+    flex-grow: 1
+}
+
+.shipping_method .content .title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.shipping_method .sub-content {
+    margin-top: 15px;
+}
+
+#shops-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+#shops-list .shops-list-item {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#shops-list .shop_name {
+    color: #0272a9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#shops-list .shop_phone {
+    margin: 8px 0px;
+}
+
+#shops-list .shops-list-item.active {
+    background: green;
+}
+
+#shops-list .shops-list-item.active * {
+    color: #FFF;
+}
+
+.select2 {
+    min-width: 250px;
+}
+
+#otp-modal {
+    display: none;
+    box-shadow: none;
+    min-height: 80px !important;
+}
+
+#otp-modal input {
+    text-align: center;
+}
+
+#otp-message {
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.input-required::after {
+    content: '*';
+    color: red;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+#shop-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFF;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    max-width: 400px;
+}
+
+#shop-info .shop-info__item {
+    margin-bottom: 15px;
+}
+
+#shop-info .shop-info__item .titledesc {
+    font-weight: bold;
+    display: block
+}

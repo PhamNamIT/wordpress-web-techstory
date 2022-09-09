@@ -1,0 +1,26 @@
+/**1.0.1.4 - 2021.07.07**/
+- Fixed: conditional tag for WooCommerce
+- Added: Compatibility with WooCommerce Subscriptions 3.0.7
+- Added: Not reload page after countdown for shortcode
+– Updated: Allow to set product countdown timer without sale price
+
+/**1.0.1.3 - 2020.08.22**/
+- Fixed: refresh page on iOS device
+
+/**1.0.1.2 - 2020.08.15**/
+- Added: Compatibility with WP 5.5 and WC 4.3
+– Updated: Class support
+– Updated: Display countdown timer
+- Fixed: Check update request
+
+/**1.0.1.1 - 2020.05.20/
+- Updated: compatible with Elementor for Shortcode
+– Updated: Class support
+
+/**1.0.1 - 2020.03.12/
+- Added: Checkout countdown report
+- Added: Countdown evergreen for shortcode  and product
+- Added: New style for countdown timer in single product page
+
+/**1.0.0 - 2019.12.20**/
+- First release

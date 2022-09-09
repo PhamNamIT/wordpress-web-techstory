@@ -1,0 +1,181 @@
+/*
+Theme Name:           Flatsome
+Theme URI:            http://flatsome.uxthemes.com/
+Author:               UX-Themes
+Author URI:           http://www.uxthemes.com/
+Description:          Multi-Purpose Responsive WooCommerce Theme
+Version:              3.14.3
+Requires at least:    5.0.0
+Requires PHP:         5.6.20
+WC requires at least: 4.0.0
+Text Domain:          flatsome
+License:              http://themeforest.net/licenses
+License URI:          http://themeforest.net/licenses
+*/
+
+
+/***************
+All custom CSS should be added to Flatsome > Advanced > Custom CSS,
+or in the style.css of a Child Theme.
+***************/
+
+
+:root{
+	--primary-color: rgb(29, 113, 171);
+}
+
+
+/*Hệ thống 👇👇*/
+.widget {
+    margin-bottom: 0;
+}
+
+.col, .gallery-item, .columns{
+	padding: 0 15px 0 15px;
+}
+
+.dark a:hover, .dark .widget a:hover {
+    color: #1D71AB;
+}
+
+.footer-primary .pull-left{
+	width: 500px;
+}
+
+.footer-widgets .footer .footer-2 .dark{
+	height: 100px;
+}
+
+.section-title-bold span{
+	border: 2px solid --primary-color;
+	border-radius: 15px;
+}
+
+.footer-secondary.pull-right{
+	float: none;
+	text-align: center;
+}
+
+img.menu-image.menu-image-title-after {
+    width: 35px;
+	height: 25px;
+}
+
+.product_type_variable.add_to_cart_button.is-gloss,
+.product_type_simple.add_to_cart_button.ajax_add_to_cart.is-gloss,
+.product_type_grouped.is-gloss,
+.product_type_simple.is-gloss{
+	border-radius: 15px;
+	line-height: 16px;
+}
+
+h5.uppercase.header-title {
+    color: #ff7600;
+    font-weight: 600;
+}
+
+a#top-link {
+	position: fixed;
+    left: 630px;
+}
+
+span.header-cart-title {
+    font-size: 1rem;
+}
+
+.banner_product-page {
+    left: 40px;
+}
+
+a.button.wc-forward {
+    border-radius: 20px;
+}
+
+a.button-continue-shopping.button.primary.is-outline {
+    border-radius: 20px;
+}
+
+button.button.primary.mt-0.pull-left.small, button#place_order {
+    border-radius: 20px;
+}
+
+.shop_table .quantity {
+    margin-left: 10px;
+}
+
+span.cqoc_product_name {
+    line-height: 35px;
+}
+
+.wc-proceed-to-checkout {
+    width: 250px;
+}
+
+a.checkout-button.button.alt.wc-forward {
+    border-radius: 20px;
+    position: relative;
+    left: 420px;
+}
+
+
+/*👆👆*/
+
+/*Tự tạo 👇👇*/
+.italic{
+	font-style: italic;
+}
+
+.table_description tr > td {
+	padding-right: 32px;
+}
+
+.title_product{
+	border-radius: 15px;
+}
+
+.footer2_content{
+	font-size: 65%;
+	font-weight: 4;
+	color: #333333;
+}
+
+.footer2_content a:hover{
+	color: aqua;
+}
+
+.absolute_footer_content{
+	
+	color: black;
+	font-size: 63%;
+	font-weight: 5; 
+	opacity: .6;	
+}
+
+.certification{
+	position: relative;
+	left: 450px;
+	color: black;
+}
+
+/*👆👆*/
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+	span.absolute_footer_content{
+		font-size: .6rem;
+		line-height: -1;
+	}
+
+	span.footer2_content{
+		font-size:.7rem;
+	}
+	
+	div#col-736541158 {
+		display: none;
+	}
+	
+	#section_1503574927 {
+    	display: none;
+	}
+}

@@ -1,0 +1,88 @@
+.d-none {
+    display: none
+}
+
+#mulutu-order-iframe-close {
+    color: #fff;
+    background: #f55151;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+#mulutu-order-iframe-close .close-icon {
+    background: #ff7777;
+    display: block;
+    border-radius: 50%;
+    line-height: 20px; 
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+}
+
+#mulutu-order-iframe-close:focus,
+#mulutu-order-iframe-close:hover {
+    background: #ff7a7a
+}
+
+#order-status-title {
+    margin-top: 20px
+}
+
+.order-history ul {
+    margin-top: 0;
+    margin-left: 6px
+}
+
+.order-history li {
+    position: relative;
+    border-left: 1px solid #cecece;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-bottom: 20px
+}
+
+.order-history li:last-child {
+    border-left: none
+}
+
+.order-history li::before {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    background: #cecece;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 0
+}
+
+.order-history li:first-child::before {
+    background: #ff6060;
+    box-shadow: 0 0 5px 0 red;
+    -webkit-box-shadow: 0 0 5px 0 red
+}
+
+.order-history li p {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -4px;
+    color: #777
+}
+
+.order-history li span {
+    display: block;
+    padding-top: 15px;
+    margin-left: 15px
+}
+
+.btn-wclist-order-detail {
+    background: transparent !important;
+    border: none !important;
+    font-weight: bold;
+}
